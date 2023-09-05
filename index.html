@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Styled Search and Pagination</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search by Name">
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Table data will be inserted here using JavaScript -->
+            </tbody>
+        </table>
+
+        <div class="container-pagination">
+            <button class="btn" id="prev-button">Previous</button>
+            <ul class="pagination" id="pagination">
+                <!-- Pagination buttons will be inserted here using JavaScript -->
+            </ul>
+            <button class="btn" id="next-button">Next</button>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
